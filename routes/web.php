@@ -23,5 +23,5 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('register', [MyregisterController::class, 'create']);
-Route::post('register', [MyregisterController::class, 'store']);
+// Route::get('register', [MyregisterController::class, 'create']);
+// Route::post('register', [MyregisterController::class, 'store']);
